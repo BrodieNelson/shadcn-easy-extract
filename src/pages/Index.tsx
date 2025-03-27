@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
+import DownloadButton from '@/components/DownloadButton';
 import { 
   TextField, 
   TextareaField, 
@@ -26,8 +27,9 @@ const Index = () => {
           ]} 
         />
         
-        <div className="mb-6">
+        <div className="mb-6 flex justify-between items-center">
           <h1 className="text-2xl font-bold">Form Submission</h1>
+          <DownloadButton />
         </div>
         
         <div className="bg-white rounded-lg border border-gray-200 p-6 mb-8">
